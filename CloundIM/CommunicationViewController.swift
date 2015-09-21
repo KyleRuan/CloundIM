@@ -12,20 +12,15 @@ import UIKit
 
 class CommunicationViewController: RCConversationViewController{
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-      
+  
         //设置聊天信息
-            self.targetId = RCIMClient.sharedRCIMClient().currentUserInfo.userId
-            self.userName = RCIMClient.sharedRCIMClient().currentUserInfo.name
-            self.conversationType = .ConversationType_PRIVATE
-            self.title = "与\(self.userName)聊天"
-            
-        
-        
-        self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)
-        
-        
-        
+//            self.targetId = RCIMClient.sharedRCIMClient().currentUserInfo.userId
+//            self.userName = RCIMClient.sharedRCIMClient().currentUserInfo.name
+//            self.conversationType = .ConversationType_PRIVATE
+//            self.title = "与\(self.userName)聊天"
+            self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)
 
     }
 

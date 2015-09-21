@@ -31,22 +31,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource{
     
         return completion(userInfo)
     }
-
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        //获取,保存appkey
-        let deviceTokenCache = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
+    func conenctServer(completion :()->Void){
         //初始化AppKey
         RCIM.sharedRCIM().initWithAppKey("82hegw5uh9zbx")
-//        RCIM.sharedRCIM().initWithAppKey("82hegw5uh9zbx", deviceToken: deviceTokenCache)
         
-        //设置用户信息数据提供者为自己
-        RCIM.sharedRCIM().userInfoDataSource = self
         
         RCIM.sharedRCIM().connectWithToken("1kOoOKIDrI3cNJKQMqXwOyt/ZfhgyVszzCloGFeufKTVwmBpQewFzfqFRBTEEapAUxyLz8mkX//DxlSZwR3EUQ==", success: { (success) -> Void in
-             print("success")
+         
             RCIMClient.sharedRCIMClient().currentUserInfo = RCUserInfo(userId: "kyle", name: "ruankai", portrait: "")
+            
+            
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                completion()
+            })
             
             }, error: { (error) -> Void in
                 print("error")
@@ -54,7 +51,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource{
                 //token 不正确的时候
                 print("token 不正确")
         }
-        return true
+
+    }
+
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        //设置用户信息数据提供者为自己
+        RCIM.sharedRCIM().userInfoDataSource = self
+              return true
     }
 
     func applicationWillResignActive(application: UIApplication) {
