@@ -18,11 +18,8 @@ class CommunicationViewController: RCConversationViewController{
             self.targetId = RCIMClient.sharedRCIMClient().currentUserInfo.userId
             self.userName = RCIMClient.sharedRCIMClient().currentUserInfo.name
             self.conversationType = .ConversationType_PRIVATE
-        let a = 2 ;
-        
-        print(a)
             self.title = "与\(self.userName)聊天"
-//            self.setMessageAvatarStyle(._USER_AVATAR_CYCLE)
+            
         
         
         self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)

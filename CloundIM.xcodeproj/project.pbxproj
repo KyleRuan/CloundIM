@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5036DA43AF9D8873AEDF4DC1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9054CE845E0DFE394DF1F5 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B730E33B1BA132800026EA3C /* CloundIM-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */; };
+		B73925EF1BB00E3A002E282D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73925EE1BB00E3A002E282D /* CoreData.framework */; };
 		B7A7DB341B568CFC006A75A9 /* CommunicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */; };
 		B7A7DB371B569B5C006A75A9 /* Cummunication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB351B569B5C006A75A9 /* Cummunication.storyboard */; };
 		B7A7DB3A1B569B8D006A75A9 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB381B569B8D006A75A9 /* Contacts.storyboard */; };
@@ -20,12 +22,12 @@
 		B7D4F6681B4A5AE200E7E848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F6661B4A5AE200E7E848 /* LaunchScreen.storyboard */; };
 		B7D4F6701B4A5B0100E7E848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F66F1B4A5B0100E7E848 /* Podfile */; };
 		B7FBB1561B502D4E0035FD97 /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBB1551B502D4E0035FD97 /* CommunicationViewController.swift */; };
-		C50DD4FDE618040C55FC0B71 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE3A25FA442D27D33D84966 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F9054CE845E0DFE394DF1F5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3AB742664AB20D7AFD5E05 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		2DE3A25FA442D27D33D84966 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73925EE1BB00E3A002E282D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloundIM-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationListViewController.swift; sourceTree = "<group>"; };
 		B7A7DB361B569B5C006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cummunication.storyboard; sourceTree = "<group>"; };
@@ -49,7 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50DD4FDE618040C55FC0B71 /* libPods.a in Frameworks */,
+				B73925EF1BB00E3A002E282D /* CoreData.framework in Frameworks */,
+				5036DA43AF9D8873AEDF4DC1 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +118,8 @@
 		FB38B3653055F22713FF99E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DE3A25FA442D27D33D84966 /* libPods.a */,
+				B73925EE1BB00E3A002E282D /* CoreData.framework */,
+				0F9054CE845E0DFE394DF1F5 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +136,7 @@
 				B7D4F6571B4A5AE200E7E848 /* Frameworks */,
 				B7D4F6581B4A5AE200E7E848 /* Resources */,
 				7DB1A2393D208B6589E6840E /* Copy Pods Resources */,
+				367B6C404A484B939C4EDDFB /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +200,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		367B6C404A484B939C4EDDFB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7DB1A2393D208B6589E6840E /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

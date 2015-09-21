@@ -1,1 +1,4 @@
 pod 'RongCloudIMKit', '~> 2.2.11'
+pod 'KxMenu'
+use_frameworks!
+pod 'YALSideMenu', :git => 'https://github.com/Yalantis/Side-Menu.iOS.git', :branch => 'swift_2.0’

@@ -1,10 +1,26 @@
 PODS:
+  - KxMenu (1)
   - RongCloudIMKit (2.2.11)
+  - YALSideMenu (1.0)
 
 DEPENDENCIES:
+  - KxMenu
   - RongCloudIMKit (~> 2.2.11)
+  - YALSideMenu (from `https://github.com/Yalantis/Side-Menu.iOS.git`, branch `swift_2.0`)
+
+EXTERNAL SOURCES:
+  YALSideMenu:
+    :branch: swift_2.0
+    :git: https://github.com/Yalantis/Side-Menu.iOS.git
+
+CHECKOUT OPTIONS:
+  YALSideMenu:
+    :commit: d4010701f65fa4169d172c31323ddf3d38b7386f
+    :git: https://github.com/Yalantis/Side-Menu.iOS.git
 
 SPEC CHECKSUMS:
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
   RongCloudIMKit: 9268043d0b4cdc5fd39a23d43d7115a3f913c6e7
+  YALSideMenu: a7a903a4bb5e6157b22d49ce209a99dc837dd5d9
 
 COCOAPODS: 0.38.2

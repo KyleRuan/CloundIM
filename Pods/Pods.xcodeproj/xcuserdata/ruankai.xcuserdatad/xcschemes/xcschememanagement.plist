@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KxMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YALSideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
+		<key>3791EF7ED2C6443C9892FEF4F4570763</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF04A85FF3E030562CCBA2C7CBE6908F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B54378F7BC6B44B5395B876BD659CDC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
