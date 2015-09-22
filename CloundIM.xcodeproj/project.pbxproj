@@ -10,8 +10,9 @@
 		5036DA43AF9D8873AEDF4DC1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9054CE845E0DFE394DF1F5 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B730E33B1BA132800026EA3C /* CloundIM-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */; };
 		B73925EF1BB00E3A002E282D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73925EE1BB00E3A002E282D /* CoreData.framework */; };
+		B73925F61BB016CB002E282D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73925F51BB016CB002E282D /* MenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B7A7DB341B568CFC006A75A9 /* CommunicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */; };
-		B7A7DB371B569B5C006A75A9 /* Cummunication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB351B569B5C006A75A9 /* Cummunication.storyboard */; };
+		B7A7DB371B569B5C006A75A9 /* Communicaiton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB351B569B5C006A75A9 /* Communicaiton.storyboard */; };
 		B7A7DB3A1B569B8D006A75A9 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB381B569B8D006A75A9 /* Contacts.storyboard */; };
 		B7A7DB3D1B569BC4006A75A9 /* Service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB3B1B569BC4006A75A9 /* Service.storyboard */; };
 		B7A7DB401B569BED006A75A9 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB3E1B569BED006A75A9 /* Setting.storyboard */; };
@@ -21,28 +22,31 @@
 		B7D4F6651B4A5AE200E7E848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F6641B4A5AE200E7E848 /* Assets.xcassets */; };
 		B7D4F6681B4A5AE200E7E848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F6661B4A5AE200E7E848 /* LaunchScreen.storyboard */; };
 		B7D4F6701B4A5B0100E7E848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F66F1B4A5B0100E7E848 /* Podfile */; };
-		B7FBB1561B502D4E0035FD97 /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FBB1551B502D4E0035FD97 /* CommunicationViewController.swift */; };
+		B7F5E0B61BB156C700F9421F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E0B51BB156C700F9421F /* ContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B7F5E0B81BB15F9200F9421F /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F9054CE845E0DFE394DF1F5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3AB742664AB20D7AFD5E05 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B73925EE1BB00E3A002E282D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B73925F51BB016CB002E282D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloundIM-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationListViewController.swift; sourceTree = "<group>"; };
-		B7A7DB361B569B5C006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cummunication.storyboard; sourceTree = "<group>"; };
+		B7A7DB361B569B5C006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Communicaiton.storyboard; sourceTree = "<group>"; };
 		B7A7DB391B569B8D006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contacts.storyboard; sourceTree = "<group>"; };
 		B7A7DB3C1B569BC4006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Service.storyboard; sourceTree = "<group>"; };
 		B7A7DB3F1B569BED006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Setting.storyboard; sourceTree = "<group>"; };
 		B7D4F65A1B4A5AE200E7E848 /* CloundIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloundIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D4F65D1B4A5AE200E7E848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CloundIM/ViewController.swift; sourceTree = "<group>"; };
+		B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7D4F6621B4A5AE200E7E848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7D4F6641B4A5AE200E7E848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D4F6671B4A5AE200E7E848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D4F6691B4A5AE200E7E848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D4F66F1B4A5B0100E7E848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7FBB1551B502D4E0035FD97 /* CommunicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
+		B7F5E0B51BB156C700F9421F /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
 		BA260CD8DCC33EE6DCF56FC0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +79,7 @@
 				B7A7DB3E1B569BED006A75A9 /* Setting.storyboard */,
 				B7A7DB3B1B569BC4006A75A9 /* Service.storyboard */,
 				B7A7DB381B569B8D006A75A9 /* Contacts.storyboard */,
-				B7A7DB351B569B5C006A75A9 /* Cummunication.storyboard */,
+				B7A7DB351B569B5C006A75A9 /* Communicaiton.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -83,11 +87,11 @@
 		B7D4F6511B4A5AE200E7E848 = {
 			isa = PBXGroup;
 			children = (
+				B7F5E0B91BB1602600F9421F /* temporary */,
 				B7A7DB411B56A636006A75A9 /* StoryBoards */,
 				B7D4F66F1B4A5B0100E7E848 /* Podfile */,
 				B7D4F65C1B4A5AE200E7E848 /* CloundIM */,
 				B7D4F65B1B4A5AE200E7E848 /* Products */,
-				B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */,
 				93F911DD5CF1AA643E7F133F /* Pods */,
 				FB38B3653055F22713FF99E7 /* Frameworks */,
 			);
@@ -104,15 +108,25 @@
 		B7D4F65C1B4A5AE200E7E848 /* CloundIM */ = {
 			isa = PBXGroup;
 			children = (
+				B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */,
 				B7D4F65D1B4A5AE200E7E848 /* AppDelegate.swift */,
+				B73925F51BB016CB002E282D /* MenuViewController.swift */,
 				B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */,
-				B7FBB1551B502D4E0035FD97 /* CommunicationViewController.swift */,
+				B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */,
 				B7D4F6641B4A5AE200E7E848 /* Assets.xcassets */,
 				B7D4F6661B4A5AE200E7E848 /* LaunchScreen.storyboard */,
 				B7D4F6691B4A5AE200E7E848 /* Info.plist */,
 				B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */,
 			);
 			path = CloundIM;
+			sourceTree = "<group>";
+		};
+		B7F5E0B91BB1602600F9421F /* temporary */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5E0B51BB156C700F9421F /* ContentViewController.swift */,
+			);
+			name = temporary;
 			sourceTree = "<group>";
 		};
 		FB38B3653055F22713FF99E7 /* Frameworks */ = {
@@ -187,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7D4F6681B4A5AE200E7E848 /* LaunchScreen.storyboard in Resources */,
-				B7A7DB371B569B5C006A75A9 /* Cummunication.storyboard in Resources */,
+				B7A7DB371B569B5C006A75A9 /* Communicaiton.storyboard in Resources */,
 				B7D4F6651B4A5AE200E7E848 /* Assets.xcassets in Resources */,
 				B7A7DB3A1B569B8D006A75A9 /* Contacts.storyboard in Resources */,
 				B7D4F6701B4A5B0100E7E848 /* Podfile in Resources */,
@@ -252,23 +266,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F5E0B61BB156C700F9421F /* ContentViewController.swift in Sources */,
 				B730E33B1BA132800026EA3C /* CloundIM-Bridging-Header.h in Sources */,
+				B73925F61BB016CB002E282D /* MenuViewController.swift in Sources */,
 				B7D4F6601B4A5AE200E7E848 /* ViewController.swift in Sources */,
 				B7A7DB341B568CFC006A75A9 /* CommunicationListViewController.swift in Sources */,
 				B7D4F65E1B4A5AE200E7E848 /* AppDelegate.swift in Sources */,
-				B7FBB1561B502D4E0035FD97 /* CommunicationViewController.swift in Sources */,
+				B7F5E0B81BB15F9200F9421F /* CommunicationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B7A7DB351B569B5C006A75A9 /* Cummunication.storyboard */ = {
+		B7A7DB351B569B5C006A75A9 /* Communicaiton.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B7A7DB361B569B5C006A75A9 /* Base */,
 			);
-			name = Cummunication.storyboard;
+			name = Communicaiton.storyboard;
 			path = CloundIM;
 			sourceTree = "<group>";
 		};

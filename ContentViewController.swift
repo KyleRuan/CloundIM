@@ -1,24 +1,19 @@
 //
-//  CommunicationViewController.swift
+//  ContentViewController.swift
 //  CloundIM
 //
-//  Created by Jason on 15/7/11.
+//  Created by Jason on 15/9/22.
 //  Copyright © 2015年 KYLERUAN. All rights reserved.
 //
 
 import UIKit
-class CommunicationViewController: RCConversationViewController{
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-  
-        //设置聊天信息
-            self.targetId = RCIMClient.sharedRCIMClient().currentUserInfo.userId
-            self.userName = RCIMClient.sharedRCIMClient().currentUserInfo.name
-            self.conversationType = .ConversationType_PRIVATE
-            self.title = "与\(self.userName)聊天"
-            self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)
 
+class ContentViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +21,7 @@ class CommunicationViewController: RCConversationViewController{
         // Dispose of any resources that can be recreated.
     }
     
-    
+
     /*
     // MARK: - Navigation
 

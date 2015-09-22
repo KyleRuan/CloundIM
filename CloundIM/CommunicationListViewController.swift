@@ -9,7 +9,8 @@
 import UIKit
 
 class CommunicationListViewController:RCConversationListViewController{
-  let conVC = CommunicationViewController()
+    private var transitionPoint: CGPoint!
+    let conVC = CommunicationViewController()
     override func viewDidLoad() {
         super.viewDidLoad()
         let appDel = UIApplication.sharedApplication().delegate as? AppDelegate
@@ -42,30 +43,36 @@ class CommunicationListViewController:RCConversationListViewController{
                 if let VC = segue.destinationViewController as? CommunicationViewController{
                     prepareViewController(VC)
                 }
+                
             default:
                 break
             }
         }
     }
     
-    private func   prepareViewController(VC:CommunicationViewController){
+
+    
+  private  func   prepareViewController(VC:CommunicationViewController){
         VC.targetId = conVC.targetId
         VC.userName = conVC.userName
         VC.conversationType =  conVC.conversationType
         VC.title = "和王心凌聊天"
-        
+        self.tabBarController?.tabBar.hidden = true
     }
     override func onSelectedTableRow(conversationModelType: RCConversationModelType, conversationModel model: RCConversationModel!, atIndexPath indexPath: NSIndexPath!) {
         conVC.targetId = model.targetId
         conVC.userName = model.senderUserName
         conVC.conversationType = model.conversationType
         conVC.title = "和王心凌聊天"
-        performSegueWithIdentifier(Constants.ChattingSegue, sender: self)
+       performSegueWithIdentifier(Constants.ChattingSegue, sender: self)
+      
         
     }
   
     struct Constants {
         static let ChattingSegue = "ChattingSegue"
+        static let MenuSegue = "menusegue"
+        static let contentStoryBoard = "ChattingWithFriends"
     }
 
 }
