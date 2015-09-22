@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1EE6A9537545D7B590159F6"
-               BuildableName = "KxMenu.framework"
-               BlueprintName = "KxMenu"
+               BlueprintIdentifier = "F4D8C12F447377D95BF1B346"
+               BuildableName = "MSWeakTimer.framework"
+               BlueprintName = "MSWeakTimer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D1EE6A9537545D7B590159F6"
-               BuildableName = "KxMenu.framework"
-               BlueprintName = "KxMenu"
+               BlueprintIdentifier = "5103409E64AFCEE0A217EF25"
+               BuildableName = "JSAnimatedImagesView.framework"
+               BlueprintName = "JSAnimatedImagesView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

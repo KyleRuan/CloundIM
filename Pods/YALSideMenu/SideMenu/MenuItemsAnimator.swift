@@ -14,7 +14,6 @@ private func TransformForRotatingLayer(layer: CALayer, angle: CGFloat) -> CATran
     transform = CATransform3DTranslate(transform, -offset, 0, 0)
     transform = CATransform3DRotate(transform, angle, 0, 1, 0)
     transform = CATransform3DTranslate(transform, offset, 0, 0)
- 
     return transform
 }
 

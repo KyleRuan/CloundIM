@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JSAnimatedImagesView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KxMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MSWeakTimer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3791EF7ED2C6443C9892FEF4F4570763</key>
+		<key>092CFBD4B8027618115855AA80C09F11</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF04A85FF3E030562CCBA2C7CBE6908F</key>
+		<key>802F2ED37149C90162B196E4E7E69077</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B54378F7BC6B44B5395B876BD659CDC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA5BA55D287EF7CDB887F286FF12D29B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E520C807AB7F1CF96DE83FE4C26B3602</key>
 		<dict>
 			<key>primary</key>
 			<true/>

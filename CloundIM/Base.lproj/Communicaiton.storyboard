@@ -65,7 +65,6 @@
         <!--对话列表-->
         <scene sceneID="8Qf-Tv-VUS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Doi-BB-gKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Igc-Zo-7sA" customClass="CommunicationListViewController" customModule="CloundIM" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="对话列表" id="cP1-33-6WN">
                         <rightBarButtonItems>
@@ -83,13 +82,13 @@
                         <segue destination="BYZ-38-t0r" kind="show" identifier="ChattingSegue" id="2XW-Cz-7CQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Doi-BB-gKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1879" y="-3203"/>
         </scene>
         <!--与好友聊天-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="ChattingWithFriends" id="BYZ-38-t0r" customClass="CommunicationViewController" customModule="CloundIM" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -104,6 +103,7 @@
                     <navigationItem key="navigationItem" title="与好友聊天" id="X1p-1t-sqT" colorLabel="IBBuiltInLabel-Red"/>
                     <keyCommands/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-715" y="-3192"/>
         </scene>
@@ -188,7 +188,7 @@
                                         <rect key="frame" x="0.0" y="70" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JMd-qF-DvO" id="tfw-CT-HG6">
-                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="C08-dk-mu2">
@@ -220,7 +220,7 @@
                                         <rect key="frame" x="0.0" y="140" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y5B-US-yxb" id="Dhu-dg-3lC">
-                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="LbJ-7j-7eD">
@@ -252,7 +252,7 @@
                                         <rect key="frame" x="0.0" y="210" width="70" height="70"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fDP-GB-Xvp" id="bPf-md-b6B">
-                                            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="69.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="0kF-qT-fgw">

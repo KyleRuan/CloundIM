@@ -11,11 +11,15 @@
 		B730E33B1BA132800026EA3C /* CloundIM-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */; };
 		B73925EF1BB00E3A002E282D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B73925EE1BB00E3A002E282D /* CoreData.framework */; };
 		B73925F61BB016CB002E282D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73925F51BB016CB002E282D /* MenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B7495C6A1BB1B4BB00FF8ACD /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7495C691BB1B4BB00FF8ACD /* RoundImageView.swift */; settings = {ASSET_TAGS = (); }; };
 		B7A7DB341B568CFC006A75A9 /* CommunicationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */; };
 		B7A7DB371B569B5C006A75A9 /* Communicaiton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB351B569B5C006A75A9 /* Communicaiton.storyboard */; };
 		B7A7DB3A1B569B8D006A75A9 /* Contacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB381B569B8D006A75A9 /* Contacts.storyboard */; };
 		B7A7DB3D1B569BC4006A75A9 /* Service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB3B1B569BC4006A75A9 /* Service.storyboard */; };
 		B7A7DB401B569BED006A75A9 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A7DB3E1B569BED006A75A9 /* Setting.storyboard */; };
+		B7D1CCF31BB1CF5A0052D9DB /* RCAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1CCF21BB1CF5A0052D9DB /* RCAnimatedImagesView.m */; settings = {ASSET_TAGS = (); }; };
+		B7D1CCF61BB1D4E70052D9DB /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D1CCF41BB1D4E70052D9DB /* LogIn.storyboard */; settings = {ASSET_TAGS = (); }; };
+		B7D1CCF81BB1D5980052D9DB /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1CCF71BB1D5980052D9DB /* RegisterTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B7D4F65E1B4A5AE200E7E848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D4F65D1B4A5AE200E7E848 /* AppDelegate.swift */; };
 		B7D4F6601B4A5AE200E7E848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */; };
 		B7D4F6631B4A5AE200E7E848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F6611B4A5AE200E7E848 /* Main.storyboard */; };
@@ -24,6 +28,7 @@
 		B7D4F6701B4A5B0100E7E848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B7D4F66F1B4A5B0100E7E848 /* Podfile */; };
 		B7F5E0B61BB156C700F9421F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E0B51BB156C700F9421F /* ContentViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		B7F5E0B81BB15F9200F9421F /* CommunicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		B7F5E0BE1BB187A800F9421F /* LoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5E0BD1BB187A800F9421F /* LoggingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +37,16 @@
 		B73925EE1BB00E3A002E282D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		B73925F51BB016CB002E282D /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B748EF3D1B4A711A0020AF8E /* CloundIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CloundIM-Bridging-Header.h"; sourceTree = "<group>"; };
+		B7495C691BB1B4BB00FF8ACD /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationListViewController.swift; sourceTree = "<group>"; };
 		B7A7DB361B569B5C006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Communicaiton.storyboard; sourceTree = "<group>"; };
 		B7A7DB391B569B8D006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contacts.storyboard; sourceTree = "<group>"; };
 		B7A7DB3C1B569BC4006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Service.storyboard; sourceTree = "<group>"; };
 		B7A7DB3F1B569BED006A75A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Setting.storyboard; sourceTree = "<group>"; };
+		B7D1CCF11BB1CF5A0052D9DB /* RCAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCAnimatedImagesView.h; path = CloundIM/RCAnimatedImagesView.h; sourceTree = "<group>"; };
+		B7D1CCF21BB1CF5A0052D9DB /* RCAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCAnimatedImagesView.m; path = CloundIM/RCAnimatedImagesView.m; sourceTree = "<group>"; };
+		B7D1CCF51BB1D4E70052D9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CloundIM/Base.lproj/LogIn.storyboard; sourceTree = "<group>"; };
+		B7D1CCF71BB1D5980052D9DB /* RegisterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 		B7D4F65A1B4A5AE200E7E848 /* CloundIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloundIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D4F65D1B4A5AE200E7E848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 		B7D4F66F1B4A5B0100E7E848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B7F5E0B51BB156C700F9421F /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunicationViewController.swift; sourceTree = "<group>"; };
+		B7F5E0BD1BB187A800F9421F /* LoggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggingViewController.swift; path = ../LoggingViewController.swift; sourceTree = "<group>"; };
 		BA260CD8DCC33EE6DCF56FC0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,12 +87,22 @@
 			isa = PBXGroup;
 			children = (
 				B7D4F6611B4A5AE200E7E848 /* Main.storyboard */,
+				B7D1CCF41BB1D4E70052D9DB /* LogIn.storyboard */,
 				B7A7DB3E1B569BED006A75A9 /* Setting.storyboard */,
 				B7A7DB3B1B569BC4006A75A9 /* Service.storyboard */,
 				B7A7DB381B569B8D006A75A9 /* Contacts.storyboard */,
 				B7A7DB351B569B5C006A75A9 /* Communicaiton.storyboard */,
 			);
 			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B7D1CCF91BB1D5E80052D9DB /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5E0BD1BB187A800F9421F /* LoggingViewController.swift */,
+				B7D1CCF71BB1D5980052D9DB /* RegisterTableViewController.swift */,
+			);
+			name = LogIn;
 			sourceTree = "<group>";
 		};
 		B7D4F6511B4A5AE200E7E848 = {
@@ -108,11 +129,13 @@
 		B7D4F65C1B4A5AE200E7E848 /* CloundIM */ = {
 			isa = PBXGroup;
 			children = (
+				B7D1CCF91BB1D5E80052D9DB /* LogIn */,
 				B7F5E0B71BB15F9200F9421F /* CommunicationViewController.swift */,
 				B7D4F65D1B4A5AE200E7E848 /* AppDelegate.swift */,
 				B73925F51BB016CB002E282D /* MenuViewController.swift */,
 				B7A7DB331B568CFC006A75A9 /* CommunicationListViewController.swift */,
 				B7D4F65F1B4A5AE200E7E848 /* ViewController.swift */,
+				B7495C691BB1B4BB00FF8ACD /* RoundImageView.swift */,
 				B7D4F6641B4A5AE200E7E848 /* Assets.xcassets */,
 				B7D4F6661B4A5AE200E7E848 /* LaunchScreen.storyboard */,
 				B7D4F6691B4A5AE200E7E848 /* Info.plist */,
@@ -124,6 +147,8 @@
 		B7F5E0B91BB1602600F9421F /* temporary */ = {
 			isa = PBXGroup;
 			children = (
+				B7D1CCF11BB1CF5A0052D9DB /* RCAnimatedImagesView.h */,
+				B7D1CCF21BB1CF5A0052D9DB /* RCAnimatedImagesView.m */,
 				B7F5E0B51BB156C700F9421F /* ContentViewController.swift */,
 			);
 			name = temporary;
@@ -207,6 +232,7 @@
 				B7D4F6701B4A5B0100E7E848 /* Podfile in Resources */,
 				B7D4F6631B4A5AE200E7E848 /* Main.storyboard in Resources */,
 				B7A7DB3D1B569BC4006A75A9 /* Service.storyboard in Resources */,
+				B7D1CCF61BB1D4E70052D9DB /* LogIn.storyboard in Resources */,
 				B7A7DB401B569BED006A75A9 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +296,13 @@
 				B730E33B1BA132800026EA3C /* CloundIM-Bridging-Header.h in Sources */,
 				B73925F61BB016CB002E282D /* MenuViewController.swift in Sources */,
 				B7D4F6601B4A5AE200E7E848 /* ViewController.swift in Sources */,
+				B7D1CCF31BB1CF5A0052D9DB /* RCAnimatedImagesView.m in Sources */,
+				B7F5E0BE1BB187A800F9421F /* LoggingViewController.swift in Sources */,
 				B7A7DB341B568CFC006A75A9 /* CommunicationListViewController.swift in Sources */,
 				B7D4F65E1B4A5AE200E7E848 /* AppDelegate.swift in Sources */,
 				B7F5E0B81BB15F9200F9421F /* CommunicationViewController.swift in Sources */,
+				B7495C6A1BB1B4BB00FF8ACD /* RoundImageView.swift in Sources */,
+				B7D1CCF81BB1D5980052D9DB /* RegisterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +343,14 @@
 			);
 			name = Setting.storyboard;
 			path = CloundIM;
+			sourceTree = "<group>";
+		};
+		B7D1CCF41BB1D4E70052D9DB /* LogIn.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D1CCF51BB1D4E70052D9DB /* Base */,
+			);
+			name = LogIn.storyboard;
 			sourceTree = "<group>";
 		};
 		B7D4F6611B4A5AE200E7E848 /* Main.storyboard */ = {
