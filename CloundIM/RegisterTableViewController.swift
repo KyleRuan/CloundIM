@@ -9,10 +9,17 @@
 import UIKit
 
 class RegisterTableViewController: UITableViewController {
-
+    
+    
+    
+    @IBOutlet var mustRequried: [UITextField]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "新用户注册"
+        
+      
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -23,8 +30,36 @@ class RegisterTableViewController: UITableViewController {
     
     @IBAction func doneTap(sender: UIBarButtonItem) {
         
-        let alert = UIAlertView(title: "提示", message: "cancel it", delegate: self, cancelButtonTitle: "取消")
-         alert.show()
+        for field in mustRequried {
+            if field.text!.isEmpty {
+                
+                let alert = UIAlertView(title: "提示", message: "必选没有填选", delegate: self, cancelButtonTitle: "取消")
+                alert.show()
+                return
+
+            }
+            let alert = UIAlertView(title: "提示", message: "完成", delegate: self, cancelButtonTitle: "确定")
+            
+            alert.show()
+        }
+        
+//        for cells in self.tableView.visibleCells[0..<3] {
+//            for textfield in (cells.subviews.first?.subviews)! {
+//                if let field = textfield as? UITextField{
+//                    if field.text == "" {
+//                        
+//                        let alert = UIAlertView(title: "提示", message: "必选没有填选", delegate: self, cancelButtonTitle: "取消")
+//                        alert.show()
+//                        return
+//                    }
+//                    continue
+//                }
+//                
+//            }
+//        }
+        
+        
+        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -38,6 +73,9 @@ class RegisterTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    
+    
+    
 //    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 //        // #warning Incomplete implementation, return the number of sections
 //        return 0

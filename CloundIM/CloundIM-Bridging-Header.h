@@ -4,3 +4,5 @@
 #import <RongIMKit/RongIMKit.h>
 #import<KxMenu/KxMenu.h>
 #import<JSAnimatedImagesView/JSAnimatedImagesView.h>
+#import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
+//#import <JVFloatLabeledTextView/JVFloatLabeledTextView.h>

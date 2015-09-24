@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1281A4D1FADD300BD90F57F"
-               BuildableName = "KxMenu.framework"
-               BlueprintName = "KxMenu"
+               BlueprintIdentifier = "F13F84D48DD3C7C52F9E2DF9"
+               BuildableName = "JVFloatLabeledTextField.framework"
+               BlueprintName = "JVFloatLabeledTextField"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

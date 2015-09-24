@@ -17,77 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LtF-Y7-36D" userLabel="WallerPaper" customClass="JSAnimatedImagesView">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ts" translatesAutoresizingMaskIntoConstraints="NO" id="G9C-Pj-YBR" customClass="RoundImageView" customModule="CloundIM" customModuleProvider="target">
-                                        <rect key="frame" x="215.5" y="24" width="169" height="169"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="169" id="9Pa-Bk-jsY"/>
-                                            <constraint firstAttribute="width" constant="169" id="JRH-P8-YmQ"/>
-                                            <constraint firstAttribute="width" constant="312" id="gBP-hK-0QN"/>
-                                        </constraints>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="84.5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
-                                                <color key="value" red="0.1938347379" green="1" blue="0.1225632225" alpha="1" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="gBP-hK-0QN"/>
-                                            </mask>
-                                        </variation>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="G9C-Pj-YBR" firstAttribute="leading" secondItem="LtF-Y7-36D" secondAttribute="leading" constant="201" id="3v3-15-81Y"/>
-                                    <constraint firstItem="G9C-Pj-YBR" firstAttribute="top" secondItem="LtF-Y7-36D" secondAttribute="top" constant="24" id="Hoc-3H-nbn"/>
-                                    <constraint firstItem="G9C-Pj-YBR" firstAttribute="centerX" secondItem="LtF-Y7-36D" secondAttribute="centerX" id="Zfv-2R-uxN"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="3v3-15-81Y"/>
-                                    </mask>
-                                </variation>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tmn-6s-HcE" customClass="JSAnimatedImagesView">
+                                <rect key="frame" x="0.0" y="-6" width="600" height="616"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="9sA-ZD-sdC">
-                                <rect key="frame" x="20" y="205" width="560" height="30"/>
-                                <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Op2-Gq-v9g">
-                                        <rect key="frame" x="0.0" y="0.0" width="235" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="MZI-y5-JDp"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UDd-Ls-Bsv">
-                                        <rect key="frame" x="239" y="0.0" width="183" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-y8-fGr">
-                                        <rect key="frame" x="426" y="0.0" width="134" height="30"/>
-                                        <state key="normal" title="登入">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="UDd-Ls-Bsv" firstAttribute="centerY" secondItem="9sA-ZD-sdC" secondAttribute="centerY" id="03b-uW-gpk"/>
-                                </constraints>
-                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="UhY-Df-hmC">
-                                <rect key="frame" x="237" y="323" width="127" height="31"/>
+                                <rect key="frame" x="237" y="351" width="127" height="31"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自动登入" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aho-XS-z18">
                                         <rect key="frame" x="0.0" y="0.0" width="68" height="31"/>
@@ -100,11 +35,59 @@
                                     </switch>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9sA-ZD-sdC">
+                                <rect key="frame" x="20" y="281" width="560" height="30"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Op2-Gq-v9g">
+                                        <rect key="frame" x="0.0" y="0.0" width="224" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UDd-Ls-Bsv">
+                                        <rect key="frame" x="232" y="0.0" width="174" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gKH-y8-fGr">
+                                        <rect key="frame" x="413" y="0.0" width="147" height="30"/>
+                                        <state key="normal" title="登入">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ts" translatesAutoresizingMaskIntoConstraints="NO" id="G9C-Pj-YBR" customClass="RoundImageView" customModule="CloundIM" customModuleProvider="target">
+                                <rect key="frame" x="216" y="72" width="169" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="Teb-tu-RRB"/>
+                                    <constraint firstAttribute="width" constant="312" id="gBP-hK-0QN"/>
+                                    <constraint firstAttribute="height" constant="169" id="rd9-PA-kfG"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="84.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="0.1938347379" green="1" blue="0.1225632225" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gBP-hK-0QN"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="CaM-1a-9sh">
-                                <rect key="frame" x="20" y="414" width="560" height="30"/>
+                                <rect key="frame" x="40" y="530" width="520" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFw-9A-xoT">
-                                        <rect key="frame" x="0.0" y="0.0" width="255" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="235" height="30"/>
                                         <state key="normal" title="注册">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -113,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEX-mX-En4">
-                                        <rect key="frame" x="305" y="0.0" width="255" height="30"/>
+                                        <rect key="frame" x="285" y="0.0" width="235" height="30"/>
                                         <state key="normal" title="忘记密码">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -123,40 +106,34 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LtF-Y7-36D" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leading" id="1ir-XF-FM5"/>
-                            <constraint firstItem="UhY-Df-hmC" firstAttribute="centerX" secondItem="CaM-1a-9sh" secondAttribute="centerX" id="3ax-8I-z0i"/>
-                            <constraint firstItem="LtF-Y7-36D" firstAttribute="bottom" secondItem="dm5-NA-mzp" secondAttribute="top" id="77H-V7-roj"/>
-                            <constraint firstItem="LtF-Y7-36D" firstAttribute="centerX" secondItem="9sA-ZD-sdC" secondAttribute="centerX" id="9TF-mg-uwL"/>
-                            <constraint firstItem="UhY-Df-hmC" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leading" constant="242" id="BYF-bd-cyH"/>
-                            <constraint firstAttribute="trailing" secondItem="LtF-Y7-36D" secondAttribute="trailing" id="HRA-Ib-nv7"/>
-                            <constraint firstItem="CaM-1a-9sh" firstAttribute="trailing" secondItem="9sA-ZD-sdC" secondAttribute="trailing" id="IPB-d5-HLH"/>
-                            <constraint firstItem="UhY-Df-hmC" firstAttribute="top" secondItem="9sA-ZD-sdC" secondAttribute="bottom" constant="20" id="J08-ww-Xe8"/>
-                            <constraint firstItem="9sA-ZD-sdC" firstAttribute="leading" secondItem="CaM-1a-9sh" secondAttribute="leading" id="Y8m-uC-eg1"/>
-                            <constraint firstItem="UhY-Df-hmC" firstAttribute="top" secondItem="TCF-wx-hl1" secondAttribute="top" constant="323" id="b6y-Em-a4y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="UhY-Df-hmC" secondAttribute="trailing" constant="211" id="cF1-0D-jpN"/>
-                            <constraint firstItem="9sA-ZD-sdC" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leadingMargin" id="eF5-hs-NBs"/>
-                            <constraint firstItem="dm5-NA-mzp" firstAttribute="top" secondItem="CaM-1a-9sh" secondAttribute="bottom" constant="156" id="jpe-GL-fGT"/>
-                            <constraint firstItem="UhY-Df-hmC" firstAttribute="centerY" secondItem="TCF-wx-hl1" secondAttribute="centerY" id="lfS-P0-ZeH"/>
-                            <constraint firstItem="LtF-Y7-36D" firstAttribute="top" secondItem="TCF-wx-hl1" secondAttribute="top" id="of4-ey-P6r"/>
+                            <constraint firstItem="9sA-ZD-sdC" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leadingMargin" id="1zf-tc-sq1"/>
+                            <constraint firstItem="tmn-6s-HcE" firstAttribute="top" secondItem="Vj3-Y8-Rhe" secondAttribute="bottom" constant="-70" id="5yn-9B-yDB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tmn-6s-HcE" secondAttribute="trailing" constant="-20" id="7fa-Jy-AWs"/>
+                            <constraint firstItem="G9C-Pj-YBR" firstAttribute="top" secondItem="Vj3-Y8-Rhe" secondAttribute="bottom" constant="8" id="Asw-sQ-DWU"/>
+                            <constraint firstItem="dm5-NA-mzp" firstAttribute="top" secondItem="tmn-6s-HcE" secondAttribute="bottom" constant="-10" id="IuY-Oq-IZd"/>
+                            <constraint firstItem="9sA-ZD-sdC" firstAttribute="centerX" secondItem="TCF-wx-hl1" secondAttribute="centerX" id="QOg-m2-PDC"/>
+                            <constraint firstItem="tmn-6s-HcE" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leadingMargin" constant="-20" id="Tl8-N8-cOr"/>
+                            <constraint firstItem="UhY-Df-hmC" firstAttribute="top" secondItem="9sA-ZD-sdC" secondAttribute="bottom" constant="40" id="Uda-9G-t3r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9sA-ZD-sdC" secondAttribute="trailing" id="WNE-dh-epA"/>
+                            <constraint firstItem="9sA-ZD-sdC" firstAttribute="top" secondItem="G9C-Pj-YBR" secondAttribute="bottom" constant="40" id="fDN-MH-pSn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CaM-1a-9sh" secondAttribute="trailing" constant="20" id="iWi-sr-eQx"/>
+                            <constraint firstItem="CaM-1a-9sh" firstAttribute="leading" secondItem="TCF-wx-hl1" secondAttribute="leadingMargin" constant="20" id="jUc-Nd-Gix"/>
+                            <constraint firstItem="UhY-Df-hmC" firstAttribute="centerX" secondItem="TCF-wx-hl1" secondAttribute="centerX" id="k3y-8X-eXw"/>
+                            <constraint firstItem="G9C-Pj-YBR" firstAttribute="centerX" secondItem="TCF-wx-hl1" secondAttribute="centerX" id="nED-rq-pwe"/>
+                            <constraint firstItem="dm5-NA-mzp" firstAttribute="top" secondItem="CaM-1a-9sh" secondAttribute="bottom" constant="40" id="pit-U7-foM"/>
+                            <constraint firstItem="CaM-1a-9sh" firstAttribute="centerX" secondItem="TCF-wx-hl1" secondAttribute="centerX" id="yjE-0W-0MU"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="BYF-bd-cyH"/>
-                                <exclude reference="cF1-0D-jpN"/>
-                                <exclude reference="lfS-P0-ZeH"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="vu3-9c-6cy"/>
                     <connections>
                         <outlet property="LogInStackView" destination="9sA-ZD-sdC" id="f7e-xv-zkB"/>
-                        <outlet property="WallPaper" destination="LtF-Y7-36D" id="V69-JD-u5l"/>
+                        <outlet property="WallPaper" destination="tmn-6s-HcE" id="j0c-4W-bAd"/>
                         <segue destination="VMb-zZ-EFq" kind="show" identifier="toCommunicationList" id="5jy-vQ-FhV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tY2-4b-zVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2325" y="-683"/>
+            <point key="canvasLocation" x="-2349" y="-670"/>
         </scene>
         <!--Register Table View Controller-->
         <scene sceneID="WsZ-WQ-ZDn">
@@ -165,18 +142,18 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="tP4-KM-GbR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="必填" id="ghB-fW-lbb">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="DaK-ea-eka">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="DaK-ea-eka">
                                         <rect key="frame" x="0.0" y="113.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DaK-ea-eka" id="6qj-HF-tJF">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="新用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-IF-c0b">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="新用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0I1-IF-c0b" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -190,14 +167,14 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Ewe-KU-C68">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="Ewe-KU-C68">
                                         <rect key="frame" x="0.0" y="157.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ewe-KU-C68" id="Q4U-FP-5NN">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E0Q-S6-Fvm">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E0Q-S6-Fvm" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" id="78u-Ka-dmt"/>
@@ -219,14 +196,14 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="U3F-Hp-fRh">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="U3F-Hp-fRh">
                                         <rect key="frame" x="0.0" y="201.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U3F-Hp-fRh" id="Ym3-UG-quj">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="确认密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRW-F0-8H0">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="确认密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRW-F0-8H0" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -244,14 +221,14 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="选填" id="cte-fO-WtD">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lFD-Ud-I9U">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="lFD-Ud-I9U">
                                         <rect key="frame" x="0.0" y="295.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lFD-Ud-I9U" id="pQF-cK-RK7">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="国家" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lLC-rS-JNa">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="国家" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lLC-rS-JNa" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -265,14 +242,14 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="w9S-FZ-LaZ">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="w9S-FZ-LaZ">
                                         <rect key="frame" x="0.0" y="339.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w9S-FZ-LaZ" id="nPH-Ac-Vm2">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码提示" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-CF-OIB">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密码提示" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0x0-CF-OIB" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -286,14 +263,14 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="W2c-9A-GZ9">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="W2c-9A-GZ9">
                                         <rect key="frame" x="0.0" y="383.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W2c-9A-GZ9" id="WY8-nJ-gxx">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="性别" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5dC-xQ-ejF">
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="性别" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5dC-xQ-ejF" customClass="JVFloatLabeledTextField">
                                                     <rect key="frame" x="38" y="8" width="554" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -324,6 +301,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outletCollection property="mustRequried" destination="0I1-IF-c0b" collectionClass="NSMutableArray" id="dHf-Ba-i9v"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox1-g7-Hon" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

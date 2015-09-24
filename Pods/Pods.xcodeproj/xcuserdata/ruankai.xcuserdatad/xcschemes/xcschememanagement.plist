@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JVFloatLabeledTextField.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>KxMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>092CFBD4B8027618115855AA80C09F11</key>
+		<key>059369E58E262813774ADB88B70D99F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>802F2ED37149C90162B196E4E7E69077</key>
+		<key>13913502C22236FE14D3B8922ACBF820</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3905F442DB28CF7E9F0F5351B3720DAE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B6053FB145E1D8DC8571F5F1EF92219</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BA5BA55D287EF7CDB887F286FF12D29B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E520C807AB7F1CF96DE83FE4C26B3602</key>
+		<key>C2665CBA13AD7D034246B458B3D08FB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

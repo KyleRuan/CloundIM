@@ -13,6 +13,7 @@ import JSAnimatedImagesView
 class LoggingViewController: UIViewController,JSAnimatedImagesViewDataSource {
     @IBOutlet weak var LogInStackView: UIStackView!
 
+  
     @IBOutlet weak var WallPaper: JSAnimatedImagesView!
     override func viewDidLoad() {
         super.viewDidLoad()
