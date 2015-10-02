@@ -5,4 +5,8 @@
 #import<KxMenu/KxMenu.h>
 #import<JSAnimatedImagesView/JSAnimatedImagesView.h>
 #import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
+#import <AJWValidator/AJWValidator.h>
+#import <AVOSCloud/AVOSCloud.h>
+#import <JGProgressHUD/JGProgressHUD.h>
+
 //#import <JVFloatLabeledTextView/JVFloatLabeledTextView.h>

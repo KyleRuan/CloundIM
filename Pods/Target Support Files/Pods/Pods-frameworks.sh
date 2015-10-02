@@ -52,6 +52,8 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods/AJWValidator.framework'
+  install_framework 'Pods/JGProgressHUD.framework'
   install_framework 'Pods/JSAnimatedImagesView.framework'
   install_framework 'Pods/JVFloatLabeledTextField.framework'
   install_framework 'Pods/KxMenu.framework'
@@ -59,6 +61,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods/SideMenu.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods/AJWValidator.framework'
+  install_framework 'Pods/JGProgressHUD.framework'
   install_framework 'Pods/JSAnimatedImagesView.framework'
   install_framework 'Pods/JVFloatLabeledTextField.framework'
   install_framework 'Pods/KxMenu.framework'

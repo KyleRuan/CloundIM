@@ -2,8 +2,11 @@ pod 'RongCloudIMKit', '~> 2.2.11'
 pod 'KxMenu'
 pod 'JSAnimatedImagesView'
 pod 'JVFloatLabeledTextField'
+pod 'AVOSCloud'
 use_frameworks!
 pod 'YALSideMenu', :git => 'https://github.com/Yalantis/Side-Menu.iOS.git', :branch => 'swift_2.0’
 
-use_frameworks!
-pod 'SwiftValidator'
+pod 'JGProgressHUD'
+
+
+pod 'AJWValidator'

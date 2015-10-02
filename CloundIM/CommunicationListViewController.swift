@@ -30,6 +30,7 @@ class CommunicationListViewController:RCConversationListViewController{
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.tabBarController?.tabBar.hidden = false
+        
     }
     // MARK: - Navigation
 

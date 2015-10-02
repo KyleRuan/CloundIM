@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AJWValidator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JGProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSAnimatedImagesView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,22 +47,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>059369E58E262813774ADB88B70D99F8</key>
+		<key>6261FF4984AB0B4C58E16BAEEC6D27A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>13913502C22236FE14D3B8922ACBF820</key>
+		<key>84BAE77B729CC8BEF54E7B69269CF4F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3905F442DB28CF7E9F0F5351B3720DAE</key>
+		<key>8E688126647C22D630631813893D9825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5B6053FB145E1D8DC8571F5F1EF92219</key>
+		<key>B28C5A10DBDCA5A0349F26838740E942</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C2665CBA13AD7D034246B458B3D08FB2</key>
+		<key>C10B35A322BF719466C2B5F6E6707B03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F015496C924E3E0C83CC22ABBD9301CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F234CFBCD137BE33FA66F1C3D5BDDE0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

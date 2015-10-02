@@ -57,6 +57,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate , RCIMUserInfoDataSource{
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         //设置用户信息数据提供者为自己
         RCIM.sharedRCIM().userInfoDataSource = self
+        //如果使用美国站点，请加上这行代码 [AVOSCloud useAVCloudUS];
+//        [AVOSCloud setApplicationId:@"FYoarto0hK5jUKVHQxR42rKA"
+//        clientKey:@"kpyTskawpD6widfTRBpgfHOS"]
+        
+        AVOSCloud.setApplicationId("FYoarto0hK5jUKVHQxR42rKA", clientKey: "kpyTskawpD6widfTRBpgfHOS")
+       
               return true
     }
 

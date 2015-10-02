@@ -1,4 +1,7 @@
 PODS:
+  - AJWValidator (0.0.7)
+  - AVOSCloud (3.1.4)
+  - JGProgressHUD (1.3)
   - JSAnimatedImagesView (1.0.0):
     - MSWeakTimer (~> 1.0)
   - JVFloatLabeledTextField (1.1.0)
@@ -8,6 +11,9 @@ PODS:
   - YALSideMenu (1.0)
 
 DEPENDENCIES:
+  - AJWValidator
+  - AVOSCloud
+  - JGProgressHUD
   - JSAnimatedImagesView
   - JVFloatLabeledTextField
   - KxMenu
@@ -25,6 +31,9 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Yalantis/Side-Menu.iOS.git
 
 SPEC CHECKSUMS:
+  AJWValidator: 6bd0642cdd08ebccf847938e822fbd07a8ccfdbc
+  AVOSCloud: 2be1640178facaac8343d67ed4d5348f4dffecd7
+  JGProgressHUD: a58f62d3afac173d201250c3ba628fe44bd67017
   JSAnimatedImagesView: d5c5f561280171ce13f1f08ba9834c47a1f27bfc
   JVFloatLabeledTextField: ea4a3d8387ddd43724c472bb2b8ab39b79af05d4
   KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72

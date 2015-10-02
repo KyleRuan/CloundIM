@@ -18,7 +18,9 @@ class CommunicationViewController: RCConversationViewController{
             self.conversationType = .ConversationType_PRIVATE
             self.title = "与\(self.userName)聊天"
             self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)
-
+            self.defaultInputType = .Text
+        self.inputView?.becomeFirstResponder()
+        
     }
 
     override func didReceiveMemoryWarning() {
